@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Parisienne', cursive;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
