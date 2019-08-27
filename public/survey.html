@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<title>survey</title>
+</head>
+<body>
+
+    <h1>Compatibilty Questions</h1>
+<hr />
+   
+
+
+<div class="container">
+  
+ 
+  <h4>Name (Required)</h4>
+  <input type="text" name="" id="name" class="form-control" required />
+  <h4>Link to photo (Required)</h4>
+  <input type="text" name="" id="photo" class="form-control" required />
+  <hr />
+
+
+
+   <h4>Do you like listening to music?</h4>
+   <select class="selection" id="q1">
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+      <br />
+      <br />
+
+    <h4>Playing Sports is the best way to relieve stress.</h4>
+    <select class="selection" id="q2">
+           <option value="1">1 (Strongly Disagree)</option>
+           <option value="2">2</option>
+           <option value="3">3</option>
+           <option value="4">4</option>
+           <option value="5">5 (Strongly Agree)</option>
+         </select>
+         <br />
+         <br />
+
+         <h4>Do you prefer hiking rather than going to the bar?</h4>
+         <select class="selection" id="q3">
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br />
+            <br />
+
+            <h4>Practicing healthy lifestyle.</h4>
+            <select class="selection" id="q4">
+                 <option value="1">1 (Strongly Disagree)</option>
+                 <option value="2">2</option>
+                 <option value="3">3</option>
+                 <option value="4">4</option>
+                 <option value="5">5 (Strongly Agree)</option>
+               </select>
+               <br />
+               <br />
+
+               <h4>The Truth hurts you.</h4>
+               <select class="selection" id="q5">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                  </select>
+                  <br />
+                  <br />
+
+                  <h4>Helping out when others are in need.</h4>
+                  <select class="selection" id="q6">
+                       <option value="1">1 (Strongly Disagree)</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5 (Strongly Agree)</option>
+                     </select>
+                     <br />
+                     <br />
+
+                     <h4>You rarely get carried away by fantasies and ideas.</h4>
+                     <select class="selection" id="q7">
+                          <option value="1">1 (Strongly Disagree)</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <br />
+                        <br />
+
+                        <h4>Family is always the first priority.</h4>
+                        <select class="selection" id="q8">
+                             <option value="1">1 (Strongly Disagree)</option>
+                             <option value="2">2</option>
+                             <option value="3">3</option>
+                             <option value="4">4</option>
+                             <option value="5">5 (Strongly Agree)</option>
+                           </select>
+                           <br />
+                           <br />
+
+                           <h4>Making fun of others is your habit.</h4>
+                           <select class="selection" id="q9">
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                              </select>
+                              <br />
+                              <br />
+
+                              <h4>You feel more energetic after spending time with a group of people.</h4>
+                              <select class="selection" id="q10">
+                                   <option value="1">1 (Strongly Disagree)</option>
+                                   <option value="2">2</option>
+                                   <option value="3">3</option>
+                                   <option value="4">4</option>
+                                   <option value="5">5 (Strongly Agree)</option>
+                                 </select>
+                                 <br />
+                                 <br />
+                                 
+                       
+
+                                 <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+        Submit</button>
+        <br />
+        <br />
+    </form>
+
+    <footer class="footer">
+    <div class="container">
+    <a href="/api/friends">API Friends List</a> | <a href="https://github.com/rikkbrownstone/FriendFinder">GitHub Repo</a>
+    </div>
+    </footer>
+    <br />
+    <br />
+
+    <div id="resultsModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+            <h2 class="modal-title"><strong>Best Match</strong></h2>
+          </div>
+
+          <div class="modal-body">
+            <h2 id="matchName"></h2>
+            <img
+              id="matchImg"
+              src="https://via.placeholder.com/400x400"
+              alt="Placeholder image in case user pic doesn't show"
+            />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+  $("#submit").on("click", function() {
+    function validateForm() {
+      var isValid = true;
+      $(".form-control").each(function() {
+        if ($(this).val() === "") isValid = false;
+      });
+      $(".selection").each(function() {
+        if ($(this).val() === "") isValid = false;
+      });
+      return isValid;
+    }
+    if (validateForm() == true) {
+      var userData = {
+        name: $("#name").val(),
+        photo: $("#photo").val(),
+        scores: [
+          $("#q1").val(),
+          $("#q2").val(),
+          $("#q3").val(),
+          $("#q4").val(),
+          $("#q5").val(),
+          $("#q6").val(),
+          $("#q7").val(),
+          $("#q8").val(),
+          $("#q9").val(),
+          $("#q10").val()
+        ]
+      };
+      var currentURL = window.location.origin;
+      $.post(currentURL + "/api/friends", userData, function(data) {
+        $("#matchName").text(data.name);
+        $("#matchImg").attr("src", data.photo);
+        $("#resultsModal").modal("toggle");
+      });
+    } else {
+      alert("Please fill out all fields before submitting!");
+    }
+    return false;
+  });
+</script>
+
+</body>
+</html>
+
+
+
+</body>
+</html>

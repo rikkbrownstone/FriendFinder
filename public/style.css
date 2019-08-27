@@ -3,8 +3,27 @@ body{
     padding: 0;
 }
 h1{
-    font-family: 'Parisienne', cursive;
+    font-family: 'Anton', sans-serif;
     text-align: center;
     padding-top: 10px;
     font-weight: bold;
 }
+
+h2{
+    font-family: 'Anton', sans-serif;
+    font-weight: bold; 
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+p{
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.col-md-6{
+    margin-top: 20px;
+}
+
+
